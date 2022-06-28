@@ -290,7 +290,7 @@
                 p.mb-0.ms-3 #[b #[i English]]: 7 → origen o nacionalidad.
               .col-lg-4
                 figure
-                    img(src='@/assets/curso/tema1/img12.svg', style="width: 180px").m-auto
+                    img(src='@/assets/curso/tema1/img13.svg', style="width: 180px").m-auto
     .row.mb-5
       .col-lg-4.bg-color7
         figure.mt-2
@@ -859,7 +859,7 @@
     p.mb-5 Revise a continuación las particularidades de uso, ejemplos y gramática:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/C1Q9EeJn0Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
   
 </template>
 
