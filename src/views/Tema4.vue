@@ -158,7 +158,7 @@
                   .col
                     TarjetaAudio.color-primario.mb-3(
                       texto="<em>He studies very hard and has a full-time job</em>."
-                      :audio="require('@/assets/curso/tema4/audio3.mp3')"**Falta audio3
+                      :audio="require('@/assets/curso/tema4/audio3.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.mb-0.ms-3 Él estudia mucho y tiene un trabajo de tiempo completo.

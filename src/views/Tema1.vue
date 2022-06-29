@@ -280,7 +280,7 @@
               .col-lg-8.mb-4.mb-lg-0
                 TarjetaAudio.color-primario.mb-3(
                   texto="This is an <span>amazing, big, old, English</span> teapot."
-                  :audio="require('@/assets/curso/tema1/audio15.mp3')" **Falta audio16
+                  :audio="require('@/assets/curso/tema1/audio16.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-4.ms-3 Esta es una #[b.txt-color2 increíble] #[b.txt-color1 tetera] #[b.txt-color2 inglesa, grande y antigua].
@@ -438,7 +438,7 @@
                         p.mb-4 #[i To terrify] (aterrorizar)
                         TarjetaAudio.color-primario.mb-3(
                           texto="This movie <span>terrifies</span> me."
-                          :audio="require('@/assets/curso/tema1/audio25.mp3')"  **Falta audio27
+                          :audio="require('@/assets/curso/tema1/audio21.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                         p.ms-3 Esta película me #[b.txt-color2 aterroriza].
@@ -446,7 +446,7 @@
                         p.mb-4 #[i To bore] (aburrir)
                         TarjetaAudio.color-primario.mb-3(
                           texto="This class <span>bores</span> me."
-                          :audio="require('@/assets/curso/tema1/audio25.mp3')"  **Falta audio29
+                          :audio="require('@/assets/curso/tema1/audio23.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                         p.ms-3 Esta clase me #[b.txt-color2 aburre].
@@ -583,7 +583,7 @@
                 .col-11.col-lg-5.bg-color22
                   .row.justify-content-center
                     .col-lg-8.bg-color11.p-4
-                      Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio36.mp3')"**Falta audio41)
+                      Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio81.mp3')")
                       p.text-center.mb-0 #[b #[i.txt-color1 Old]]
                       p.text-center Viejo
           .row.align-items-center.px-2
@@ -686,7 +686,7 @@
       .col-11.col-lg.bg-color35
         .row.justify-content-center
           .col-lg-10.bg-color11.p-2
-            Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio49.mp3')"**Falta audio53)
+            Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio53.mp3')")
             p.text-center.mb-0 #[b #[i.txt-color1 Unpleasant]]
             p.text-center Desagradable
       .col-11.col-lg.bg-color36
@@ -698,7 +698,7 @@
       .col-11.col-lg.bg-color37
         .row.justify-content-center
           .col-lg-10.bg-color11.p-2
-            Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio54.mp3')"**Falta audio55)
+            Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio55.mp3')")
             p.text-center.mb-0 #[b #[i.txt-color1 Irresponsible]]
             p.text-center Irresponsable
       .col-11.col-lg.bg-color38
@@ -710,7 +710,7 @@
       .col-11.col-lg.bg-color39
         .row.justify-content-center
           .col-lg-10.bg-color11.p-2
-            Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio56.mp3')"**Falta audio57)
+            Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio57.mp3')")
             p.text-center.mb-0 #[b #[i.txt-color1 Responsible]]
             p.text-center Responsable
       .col-11.col-lg.bg-color40
@@ -812,7 +812,7 @@
       .col-11.col-lg.bg-color56
         .row.justify-content-center
           .col-lg-10.bg-color11.p-2
-            Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio73.mp3')"**Falta audio74)
+            Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio74.mp3')")
             p.text-center.mb-0 #[b #[i.txt-color1 Tired]]
             p.text-center Cansado
       .col-11.col-lg.bg-color57

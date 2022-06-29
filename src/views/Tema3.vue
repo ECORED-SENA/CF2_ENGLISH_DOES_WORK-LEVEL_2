@@ -163,21 +163,21 @@
               p.text-center #[b #[i Affirmative]]
               TarjetaAudio.color-primario.mb-3(
                 texto="<em>You like pizza</em>."
-                :audio="require('@/assets/curso/tema3/audio13.mp3')"**Falta audio13
+                :audio="require('@/assets/curso/tema3/audio13.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-4.ms-3 Les gusta la pizza.
               p.text-center #[b #[i Negative]]
               TarjetaAudio.color-primario.mb-3(
                 texto="<em>You don’t like pizza</em>."
-                :audio="require('@/assets/curso/tema3/audio14.mp3')"**Falta audio14
+                :audio="require('@/assets/curso/tema3/audio14.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-4.ms-3 No les gusta la pizza.
               p.text-center #[b #[i Interrogative]]
               TarjetaAudio.color-primario.mb-3(
                 texto="<em>Do you like pizza</em>?"
-                :audio="require('@/assets/curso/tema3/audio15.mp3')"**Falta audio15
+                :audio="require('@/assets/curso/tema3/audio15.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.ms-3 ¿Les gusta la pizza?
@@ -189,21 +189,21 @@
               p.text-center #[b #[i Affirmative]]
               TarjetaAudio.color-primario.mb-3(
                 texto="<em>They like pizza</em>."
-                :audio="require('@/assets/curso/tema3/audio16.mp3')"**Falta audio16
+                :audio="require('@/assets/curso/tema3/audio16.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-4.ms-3 Les gusta la pizza.
               p.text-center #[b #[i Negative]]
               TarjetaAudio.color-primario.mb-3(
                 texto="<em>They don’t like pizza</em>."
-                :audio="require('@/assets/curso/tema3/audio17.mp3')"**Falta audio17
+                :audio="require('@/assets/curso/tema3/audio17.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-4.ms-3 No les gusta la pizza.
               p.text-center #[b #[i Interrogative]]
               TarjetaAudio.color-primario.mb-3(
                 texto="<em>Do they like pizza</em>?"
-                :audio="require('@/assets/curso/tema3/audio18.mp3')"**Falta audio18
+                :audio="require('@/assets/curso/tema3/audio18.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.ms-3 ¿Les gusta la pizza?
@@ -239,7 +239,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I like…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I like horror movies</em>?"
@@ -250,7 +250,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I enjoy…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I enjoy listening to pop music</em>."
@@ -261,7 +261,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I love…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I love Italian food</em>."
@@ -272,7 +272,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I’m into…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I’m into Sci-Fi movies</em>."
@@ -284,7 +284,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I’m keen on…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I’m keen on golf</em>."
@@ -296,7 +296,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I’m a big fan of…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I’m a big fan of going to the gym</em>."
@@ -313,7 +313,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I don’t like…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I don’t like horror movies</em>?"
@@ -324,7 +324,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I dislike…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I dislike listening to pop music</em>."
@@ -335,7 +335,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I hate…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I hate Italian food</em>."
@@ -346,7 +346,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I’m not into…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I’m not into Sci-Fi movies</em>."
@@ -357,7 +357,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i It’s not my thing…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>Golf is not my thing</em>."
@@ -368,7 +368,7 @@
                 .row
                   .col-12
                     .row.justify-content-center
-                      .col-9
+                      .col-lg-10
                         p.text-center.mb-4 #[b #[i I’m not a big fan of…]]
                         TarjetaAudio.color-primario.mb-3(
                           texto="<em>I’m not a big fan of going to the gym</em>."
