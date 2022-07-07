@@ -134,7 +134,7 @@
         .row
           .col-lg-7.mb-4.mb-lg-0
             .row.justify-content-end
-              .col-10.bg-color85.mb-3
+              .col-lg-10.bg-color85.mb-3
                 .row.align-items-center.p-4
                   .col-auto
                     figure
@@ -145,7 +145,7 @@
                         img(src="@/assets/template/icono-link.svg")
                       .anexo__texto
                         p #[b Enlace web]. #[i Pronunciation: Consonant - vowel linking]
-              .col-10.bg-color85
+              .col-lg-10.bg-color85
                 .row.align-items-center.p-4
                   .col-auto
                     figure

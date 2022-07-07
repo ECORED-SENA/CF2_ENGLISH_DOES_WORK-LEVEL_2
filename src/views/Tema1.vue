@@ -8,10 +8,10 @@
         span(style="color: #FFF") 1
       h1 #[i Adjectives: describe and show objects and people]
     .row.align-items-center.p-3.bg-color1
-      .col-auto
+      .col-lg-auto.order-2.order-lg-1
         figure
-          img(src='@/assets/curso/tema1/img1.svg', style="width: 120px")
-      .col
+          img(src='@/assets/curso/tema1/img1.svg', style="width: 120px").m-auto
+      .col.mb-4.order-1.order-lg-2.mb-lg-0
         p.mb-0 Los adjetivos son una de las cuatro principales clases de palabras gramaticales, junto con los sustantivos, los verbos y los adverbios. Son palabras que dan más información sobre personas, animales o cosas representadas por sustantivos y pronombres (pueden describir las cualidades, indicar la cantidad, su ubicación en un tiempo o espacio determinado, etc.), y pueden ir en diferentes posiciones en una oración.
     Separador
     #t_1_1
@@ -115,7 +115,7 @@
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ms-3 Los niños están enfermos.
-    p.mb-4 #[b #[i Where adjectives go in a sentence.]]
+    h4.mb-4 #[i Where adjectives go in a sentence.]
     p.mb-5 En inglés y español, usamos adjetivos para describir sustantivos. La mayoría de los adjetivos se pueden usar delante de un sustantivo, sin embargo, se deben tener en cuenta dos recomendaciones:
     .titulo-sexto.color-acento-contenido.mb-5
       p.mb-0 #[b Tabla 1]. Adjetivos para describir sustantivos
@@ -163,7 +163,7 @@
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ms-3 La comida #[b.txt-color1 se ve] deliciosa.
-    p.mb-4 #[b #[i Adjective order.]]
+    h4.mb-4 #[i Adjective order.]
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0
         p.mb-4 En inglés, cuando antes de un sustantivo viene más de un adjetivo, los adjetivos normalmente están en un orden particular. Los adjetivos calificativos que describen opiniones o actitudes (por ejemplo, #[i “beautiful”], hermoso) suelen ir primero, antes de otros más neutrales y fácticos (por ejemplo, #[i “black”], negro):
@@ -315,13 +315,12 @@
                 p.mb-0 Tengo una #[b mesa grande, plateada y metálica].
         p Pero en inglés la norma es que se escriben primero los adjetivos, todos separados por comas, y al final el sustantivo. Sin la conjunción “y” (en inglés, #[i “and”])
         .row.justify-content-center
-          .col-lg-7.bg-color8.p-3
-            .row.align-items-center
-              .col-auto
-                figure
-                  img(src='@/assets/curso/tema1/img16.svg', style="width: 30px").m-auto
-              .col
-                p.mb-0 I have a #[b big, silver, metallic table].
+          .col-lg-7.p-3
+            TarjetaAudio.color-primario.mb-3(
+              texto="I have a <span>big, silver, metallic table.</span>"
+              :audio="require('@/assets/curso/tema1/audio82.mp3')"
+              @audio-hover="mostrarIndicadorTarjetaAudio = false"
+            )
       .col-lg-4.px-0
         figure
           img(src='@/assets/curso/tema1/img11.png', style="width: 550px").m-auto
@@ -349,7 +348,7 @@
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
         p.mb-4.ms-3 Es un #[b.txt-color2 bolso] de #[b.txt-color2 cuero, blanco y negros].
-    p.mb-4 #[b #[i Adjectives with ‘-ing’ and ‘-ed’.]]
+    h4.mb-4 #[i Adjectives with ‘-ing’ and ‘-ed’.]
     p.mb-5 Muchos adjetivos se forman a partir de verbos más las terminaciones -ing o –ed. Revise las características para cada uno de ellos:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Adjetivos terminados en <em>-ing</em>")
@@ -478,12 +477,20 @@
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
                         p.ms-3 Estoy #[b.txt-color2 aburrido] en esta clase.
-    p.mb-4 #[b #[i Vocabulary: physical appearance and personality. ]]
+    h4.mb-4 #[i Vocabulary: physical appearance and personality. ]
     p.mb-5 En español, los adjetivos calificativos varían en género y número; en inglés, los adjetivos calificativos tienen una sola forma, que es invariable (no varían ni en número ni en género). En la lista de términos, se va a interpretar cada uno en español en su #[b forma masculina-singular], pero se debe tener en cuenta que en español hay más formas.
+    p.mb-4 #[b #[i For example:]]
+    p.mb-5 #[b.txt-color1 Tall] → alto / alta / altos /altas
     .row.justify-content-center.mb-5
       .col-10.col-lg.bg-color14.p-4
-        figure.mb-3
-          img(src='@/assets/curso/tema1/img19.svg', style="width: 275px").m-auto
+        .row.mb-3
+          .col-12
+            .bg-fig1
+              figure
+                img(src='@/assets/curso/tema1/img23.svg', style="width: 275px").m-auto
+            .bg-fig2
+              figure
+                img(src='@/assets/curso/tema1/img19.svg', style="width: 275px").m-auto
         TarjetaAudio.color-primario.mb-3(
           texto="Sandra is a tall woman."
           :audio="require('@/assets/curso/tema1/audio31.mp3')"
@@ -491,8 +498,14 @@
         )
         p.mb-0.ms-3 Sandra es una mujer #[b.txt-color1 alta].
       .col-10.col-lg.bg-color14.p-4
-        figure.mb-3
-          img(src='@/assets/curso/tema1/img20.svg', style="width: 275px").m-auto
+        .row.mb-3
+          .col-12
+            .bg-fig1
+              figure
+                img(src='@/assets/curso/tema1/img24.svg', style="width: 275px").m-auto
+            .bg-fig2
+              figure
+                img(src='@/assets/curso/tema1/img20.svg', style="width: 275px").m-auto
         TarjetaAudio.color-primario.mb-3(
           texto="He is a tall man."
           :audio="require('@/assets/curso/tema1/audio32.mp3')"
@@ -500,8 +513,14 @@
         )
         p.mb-0.ms-3 Él es un hombre #[b.txt-color1 alto].
       .col-10.col-lg.bg-color14.p-4
-        figure.mb-3
-          img(src='@/assets/curso/tema1/img21.svg', style="width: 275px").m-auto
+        .row.mb-3
+          .col-12
+            .bg-fig1
+              figure
+                img(src='@/assets/curso/tema1/img25.svg', style="width: 275px").m-auto
+            .bg-fig2
+              figure
+                img(src='@/assets/curso/tema1/img21.svg', style="width: 275px").m-auto
         TarjetaAudio.color-primario.mb-3(
           texto="The girls are tall."
           :audio="require('@/assets/curso/tema1/audio33.mp3')"
@@ -509,8 +528,14 @@
         )
         p.mb-0.ms-3 Las niñas son #[b.txt-color1 altas].
       .col-10.col-lg.bg-color14.p-4
-        figure.mb-3
-          img(src='@/assets/curso/tema1/img22.svg', style="width: 275px").m-auto
+        .row.mb-3
+          .col-12
+            .bg-fig1
+              figure
+                img(src='@/assets/curso/tema1/img26.svg', style="width: 275px").m-auto
+            .bg-fig2
+              figure
+                img(src='@/assets/curso/tema1/img22.svg', style="width: 275px").m-auto
         TarjetaAudio.color-primario.mb-3(
           texto="The boys are tall."
           :audio="require('@/assets/curso/tema1/audio34.mp3')"
@@ -523,10 +548,12 @@
         SlyderE(indicadores="derecha")
           .row.align-items-center.px-2
             .col-lg-6.mb-4.mb-lg-0
-              p.mb-0.text-white #[b Características corporales]
-              p.mb-4.text-white #[b (#[i body features]):]
-              p.mb-0.text-white #[i According to height]
-              p.mb-0.text-white Según la altura
+              .row.justify-content-end
+                .col-lg-9
+                  p.mb-0 #[b Características corporales]
+                  p.mb-4 #[b (#[i body features]):]
+                  p.mb-0 #[i According to height]
+                  p.mb-0 Según la altura
             .col-lg-6
               .row.justify-content-end
                 .col-11.col-lg-5.bg-color16
@@ -543,9 +570,11 @@
                       p.text-center Bajo
           .row.align-items-center.px-2
             .col-lg-4.mb-4.mb-lg-0
-              p.mb-4.text-white #[b Características corporales (#[i body features]):]
-              p.mb-0.text-white #[i According to attractiveness]
-              p.mb-0.text-white Según el atractivo
+              .row.justify-content-end
+                .col-lg-9
+                  p.mb-4 #[b Características corporales (#[i body features]):]
+                  p.mb-0 #[i According to attractiveness]
+                  p.mb-0 Según el atractivo
             .col-lg-8
               .row.justify-content-end
                 .col-11.col-lg-3.bg-color18
@@ -568,10 +597,12 @@
                       p.text-center Feo
           .row.align-items-center.px-2
             .col-lg-6.mb-4.mb-lg-0
-              p.mb-0.text-white #[b Características corporales]
-              p.mb-4.text-white #[b (#[i body features]):]
-              p.mb-0.text-white #[i According to age]
-              p.mb-0.text-white Según la edad
+              .row.justify-content-end
+                .col-lg-9
+                  p.mb-0 #[b Características corporales]
+                  p.mb-4 #[b (#[i body features]):]
+                  p.mb-0 #[i According to age]
+                  p.mb-0 Según la edad
             .col-lg-6
               .row.justify-content-end
                 .col-11.col-lg-5.bg-color21
@@ -588,10 +619,12 @@
                       p.text-center Viejo
           .row.align-items-center.px-2
             .col-lg-6.mb-4.mb-lg-0
-              p.mb-0.text-white #[b Características corporales]
-              p.mb-4.text-white #[b (#[i body features]):]
-              p.mb-0.text-white #[i According to weight]
-              p.mb-0.text-white Según la peso
+              .row.justify-content-end
+                .col-lg-9
+                  p.mb-0 #[b Características corporales]
+                  p.mb-4 #[b (#[i body features]):]
+                  p.mb-0 #[i According to weight]
+                  p.mb-0 Según la peso
             .col-lg-6
               .row.justify-content-end
                 .col-11.col-lg-5.bg-color23
@@ -608,9 +641,11 @@
                       p.text-center Flaco
           .row.align-items-center.px-2
             .col-lg-4.mb-4.mb-lg-0
-              p.mb-4.text-white #[b Características corporales (#[i body features]):]
-              p.mb-0.text-white #[i According to hair type]
-              p.mb-0.text-white Según el tipo de cabello
+              .row.justify-content-end
+                .col-lg-9
+                  p.mb-4 #[b Características corporales (#[i body features]):]
+                  p.mb-0 #[i According to hair type]
+                  p.mb-0 Según el tipo de cabello
             .col-lg-8
               .row.justify-content-end
                 .col-11.col-lg-3.bg-color25
@@ -633,9 +668,11 @@
                       p.text-center Rizado
           .row.align-items-center.px-2
             .col-lg-4.mb-4.mb-lg-0
-              p.mb-4.text-white #[b Características corporales (#[i body features]):]
-              p.mb-0.text-white #[i According to hair color]
-              p.mb-0.text-white Según el color de cabello
+              .row.justify-content-end
+                .col-lg-9
+                  p.mb-4 #[b Características corporales (#[i body features]):]
+                  p.mb-0 #[i According to hair color]
+                  p.mb-0 Según el color de cabello
             .col-lg-8
               .row.justify-content-end
                 .col-11.col-lg.bg-color28
@@ -662,7 +699,7 @@
                       Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio49.mp3')")
                       p.text-center.mb-0 #[b #[i.txt-color1 Red haired]]
                       p.text-center Pelirrojo
-    p.mb-4 #[b Describir la personalidad]
+    h4.mb-4 #[b Describir la personalidad]
     p.mb-5 A continuación, se enuncian términos para describir comportamiento (#[i behavior]), carácter (#[i character]) y estado de ánimo (#[i mood]):
     SlyderF(columnas="col-lg-6 col-xl-3").justify-content-center
       .col-11.col-lg.bg-color32

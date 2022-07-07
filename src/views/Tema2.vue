@@ -237,13 +237,13 @@
                       figure
                         img(src='@/assets/curso/tema2/img10.svg', style="width: 220px").m-auto
     Separador
-    #t_2_1
+    #t_2_2
     .titulo-segundo.color-acento-contenido
       h2 2.2 #[i Use and differences between “really” and “very”]
     p.mb-5 Tanto #[i “really”] como #[i “very”] son adverbios de intensidad y ambos se usan para enfatizar, para intensificar lo que se está diciendo. Revise cada caso:
     .row.pt-3.mb-5
       .col-12.col-lg.mb-5.mb-lg-0
-        .p-4.bg-color8
+        .p-4.bg-color64
           .fig-deco2
             .row.justify-content-center
               .col-6.bg-color65.px-4.py-3
@@ -257,7 +257,7 @@
             :audio="require('@/assets/curso/tema2/audio9.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
-          p.mb-2.ms-3 Nosotros creemos que este trabajo es #[b.txt-color2 realmente] #[b.txt-color1 #[u interesante]].
+          p.mb-2.ms-3 Nosotros creemos que este trabajo es #[span realmente] #[b.txt-color1 #[u interesante]].
           .row.align-items-center.ms-3.mb-5
             .col-auto
               figure
@@ -269,7 +269,7 @@
             :audio="require('@/assets/curso/tema2/audio10.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
-          p.mb-2.ms-3 Ella camina #[b.txt-color2 realmente] #[b.txt-color1 #[u despacio]].
+          p.mb-2.ms-3 Ella camina #[span realmente] #[b.txt-color1 #[u despacio]].
           .row.align-items-center.ms-3.mb-5
             .col-auto
               figure
@@ -281,7 +281,7 @@
             :audio="require('@/assets/curso/tema2/audio11.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
-          p.mb-2.ms-3 Tú #[b.txt-color2 realmente] #[b.txt-color1 #[u disfrutas]] los domingos.
+          p.mb-2.ms-3 Tú #[span realmente] #[b.txt-color1 #[u disfrutas]] los domingos.
           .row.align-items-center.ms-3
             .col-auto
               figure
@@ -296,44 +296,44 @@
                 h3.text-center.text-white.mb-0 #[i Very]
           figure.pb-5
             img(src='@/assets/curso/tema2/img12.svg', style="width: 370px").m-auto
-          p.text-white Se usa para modificar adjetivos y adverbios (¡pero no verbos!):
-          p.mb-5.text-white #[b #[i For example, listen and repeat]]:
+          p Se usa para modificar adjetivos y adverbios (¡pero no verbos!):
+          p.mb-5 #[b #[i For example, listen and repeat]]:
           TarjetaAudio.color-primario.mb-3(
             texto="<em>We think this job is <span>very</span> interesting</em>."
             :audio="require('@/assets/curso/tema2/audio12.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
-          p.mb-2.ms-3.text-white Creemos que este trabajo es #[b.txt-color3 muy interesante].
+          p.mb-2.ms-3 Creemos que este trabajo es #[span muy interesante].
           .row.align-items-center.ms-3.mb-5
             .col-auto
               figure
                 img(src='@/assets/curso/tema2/img13.svg', style="width: 20px").m-auto
             .col
-              p.mb-0.text-white #[b Modifica un adjetivo]
+              p.mb-0 #[b Modifica un adjetivo]
           TarjetaAudio.color-primario.mb-3(
             texto="<em>She walks <span>very</span> slowly</em>."
             :audio="require('@/assets/curso/tema2/audio13.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
-          p.mb-2.ms-3.text-white Ella camina #[b.txt-color3 muy despacio].
+          p.mb-2.ms-3 Ella camina #[span muy despacio].
           .row.align-items-center.ms-3.mb-5
             .col-auto
               figure
                 img(src='@/assets/curso/tema2/img13.svg', style="width: 20px").m-auto
             .col
-              p.mb-0.text-white #[b Modifica un adverbio]
+              p.mb-0 #[b Modifica un adverbio]
           TarjetaAudio.color-primario.mb-3(
             texto="<em>I <span>very</span> enjoy my job</em>."
             :audio="require('@/assets/curso/tema2/audio14.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
-          p.mb-2.ms-3.text-white (Esta oración no tiene sentido si se usa #[b.txt-color3 “very”] antes del verbo).
+          p.mb-2.ms-3 (Esta oración no tiene sentido si se usa #[span “very”] antes del verbo).
           .row.align-items-center.ms-3
             .col-auto
               figure
                 img(src='@/assets/curso/tema2/img14.svg', style="width: 20px").m-auto
             .col
-              p.mb-0.text-white #[b NO modifica un verbo]
+              p.mb-0 #[b NO modifica un verbo]
     .row
       .col-lg-4.p-5.bg-color8
         figure.mb-4

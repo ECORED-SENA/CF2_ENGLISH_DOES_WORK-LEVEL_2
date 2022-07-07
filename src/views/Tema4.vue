@@ -25,7 +25,7 @@
     .row
       .col-12.col-lg-6
         .p-4.bg-color80
-          .h3.text-end.text-white.me-5 #[i Conjunción]
+          .h3.text-end.me-5 #[i Conjunción]
           .row.align-items-center
             .col-lg-2
               .fig-deco6.d-none.d-lg-block
@@ -129,7 +129,7 @@
                 p La conjunción de adición #[b #[i “and”]] es útil para agregar información y añadir elementos a una lista. Se usa igual que en el idioma español y traduce directamente #[b #[i “y”]].
                 p.mb-4 #[b #[i For example, listen and repeat:]]
                 .row.align-items-center.mb-4
-                  .col-auto
+                  .col-lg-auto.mb-2.mb-lg-0
                     figure
                       img(src='@/assets/curso/tema4/img6.svg', style="width: 190px").m-auto
                   .col
@@ -140,7 +140,7 @@
                     )
                     p.mb-0.ms-3 Yo como arroz, carne #[b.txt-color1 y] ensalada para el almuerzo todos los días.
                 .row.align-items-center.mb-4
-                  .col-auto
+                  .col-lg-auto.mb-2.mb-lg-0
                     figure
                       img(src='@/assets/curso/tema4/img7.svg', style="width: 190px").m-auto
                   .col
@@ -152,7 +152,7 @@
                     p.mb-0.ms-3 Ella reza todos los días con su madre #[b.txt-color1 y] su hermana.
                 p.mb-4 En caso tal que se estén uniendo dos cláusulas y el sujeto de ambas es el mismo, se recomienda omitir el sujeto en la segunda cláusula.
                 .row.align-items-center
-                  .col-auto
+                  .col-lg-auto.mb-2.mb-lg-0
                     figure
                       img(src='@/assets/curso/tema4/img8.svg', style="width: 190px").m-auto
                   .col
@@ -185,7 +185,7 @@
                 p En caso tal que se estén uniendo dos cláusulas y el sujeto de ambas es el mismo, no se omite el sujeto en la segunda, aunque coincidan.
                 p.mb-4 #[b #[i For example:]]
                 .row.align-items-center.mb-4
-                  .col-auto
+                  .col-lg-auto.mb-2.mb-lg-0
                     figure
                       img(src='@/assets/curso/tema4/img9.svg', style="width: 190px").m-auto
                   .col
@@ -198,7 +198,7 @@
                 p Pero si coinciden en ambas cláusulas, no solo el sujeto, sino también el verbo sí se omiten.
                 p.mb-4 #[b #[i For example:]]
                 .row.align-items-center
-                  .col-auto
+                  .col-lg-auto.mb-2.mb-lg-0
                     figure
                       img(src='@/assets/curso/tema4/img10.svg', style="width: 190px").m-auto
                   .col
@@ -214,7 +214,7 @@
                 p La conjunción de contraste #[b “but”] es útil para información inesperada o diferente, para mostrar contraste entre una cosa y otra. Generalmente, se traduce como #[b “pero”], ya que este es su uso más común, pero dependiendo del contexto, puede usarse también como #[b “menos”] y #[b “salvo”], en frases afirmativas, y en frases negativas, puede usarse como #[b “sino”].
                 p.mb-4 #[b #[i For example:]]
                 .row.align-items-center.mb-4
-                  .col-auto
+                  .col-lg-auto.mb-2.mb-lg-0
                     figure
                       img(src='@/assets/curso/tema4/img11.svg', style="width: 190px").m-auto
                   .col
@@ -225,7 +225,7 @@
                     )
                     p.mb-0.ms-3 Ella es arquitecta #[b.txt-color1 pero] trabaja como profesora.
                 .row.align-items-center.mb-4
-                  .col-auto
+                  .col-lg-auto.mb-2.mb-lg-0
                     figure
                       img(src='@/assets/curso/tema4/img12.svg', style="width: 190px").m-auto
                   .col
@@ -236,7 +236,7 @@
                     )
                     p.mb-0.ms-3 Toda la tienda está en promoción #[b.txt-color1 menos] esta mesa.
                 .row.align-items-center.mb-4
-                  .col-auto
+                  .col-lg-auto.mb-2.mb-lg-0
                     figure
                       img(src='@/assets/curso/tema4/img13.svg', style="width: 190px").m-auto
                   .col

@@ -40,7 +40,7 @@
   align-self: stretch
   background-repeat: no-repeat
   background-position: 10% 3%, 17% 97%
-  background-size: 20%, 25%
+  background-size: 50%, 25%
   animation: Flitp1 6s ease infinite
 
 @keyframes Flitp1
@@ -58,12 +58,14 @@
 .banner-principal__componente
   margin-top: 35px
   h1
-    line-height: 10px
+    .span1
+      padding-top: 0px
+      color: white
+      display: block
     span
-      padding-top: 5px
+      padding-top: 15px
       color: #FED947
       display: block
-      line-height: 40px
 
 .tarjeta-audio.color-primario
   border-color: #FFBFC1
@@ -87,6 +89,8 @@
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected
   background-color: #FF5F65
+  em
+    color: white
 
 .tabs-a__tab
   background-color: #FFDFE0
@@ -204,13 +208,36 @@
   border: 1px solid #6B8DFC
 
 .bg-color14
-  background-color: #F6F6F6
+  background-color: #E1E8FF
   border-radius: 15px
   margin: 10px
+  .bg-fig1
+    figure
+      img
+        opacity: 1
+        display: block
+  .bg-fig2
+    figure
+      img
+        opacity: 0
+        display: none
+.bg-color14:hover
+  .bg-fig1
+    figure
+      img
+        opacity: 0
+        display: none
+  .bg-fig2
+    figure
+      img
+        opacity: 1
+        display: block
 
 .bg-color15
   margin-inline: -3.2rem !important
-  background-color: #3C3FA7
+  background-image: url(../assets/curso/tema1/img27.svg)
+  background-repeat: no-repeat
+  background-size: cover
 
 .bg-color16
   background-image: url(../assets/curso/tema1/img12.png)
@@ -688,7 +715,20 @@
   border-radius: 15px
 
 .bg-color64
+  transition: all 0.5s ease-in-out
+  background-color: #E1E8FE
+  p
+    span
+      color: #3C3FA7
+      font-weight: bold
+.bg-color64:hover
+  transition: all 0.5s ease-in-out
   background-color: #3C3FA7
+  p
+    color: white
+    span
+      color: #FED947 !important
+      font-weight: bold
 
 .bg-color65
   background-color: #FC5F65
@@ -767,7 +807,7 @@
   height: 100%
 
 .bg-color80
-  background-color: #C4D1FF
+  background-color: #6B8DFC 
   border-radius: 15px
   height: 100%
 
@@ -860,6 +900,16 @@
 
   .slyder-f__btn
     border-radius: 5px
+
+  .slyder-a__tipo-b .slyder-a__btn--atrs
+    background-color: #FED947
+    width: 22px
+    height: 22px
+
+  .slyder-a__tipo-b .slyder-a__btn--sigt
+    background-color: #FED947
+    width: 22px
+    height: 22px
 
   .bg-color66
     background-image: url(../assets/curso/tema2/img18.svg)

@@ -8,16 +8,16 @@
         span(style="color: #FFF") 3
       h1 #[i What do I like and what do I not like?]
     .row.bg-color68.align-items-center
-      .col-auto.mb-4.mb-lg-0
-        figure
+      .col-lg-auto.order-2.order-lg-1
+        figure.mb-3.mb-lg-0
           img(src='@/assets/curso/tema3/img1.svg', style="width: 150px").m-auto
-      .col
+      .col.order-1.order-lg-2
         .p-4
-          p.txt-color4.mb-0 A la hora de expresar gustos e interés el verbo más usado es el verbo #[b #[i.txt-color3 “to like”]] y es el primero que se debe aprender a conjugar. Pero hay otras expresiones que pueden sonar más naturales o coloquiales y son una buena alternativa al típico #[b #[i.txt-color3  “I like…”] (Me gusta…)].
+          p.txt-color4.mb-0 A la hora de expresar gustos e interés el verbo más usado es el verbo #[b #[i.txt-color3 “to like”]] y es el primero que se debe aprender a conjugar. Pero hay otras expresiones que pueden sonar más naturales o coloquiales y son una buena alternativa al típico #[b.txt-color3 #[i  “I like…”] (Me gusta…)].
     Separador
     #t_3_1
     .titulo-segundo.color-acento-contenido
-      h2 4.1 #[i How to conjugate the verb “like” in the simple present tense]
+      h2 3.1 #[i How to conjugate the verb “like” in the simple present tense]
     .row.align-items-end.mb-5
       .col-lg-4.mb-4.mb-lg-0
         figure
@@ -26,15 +26,19 @@
         p A veces, las personas hispano hablantes que están aprendiendo el idioma inglés tienen problemas con el verbo #[b “to like”] (gustar), debido a que en español, generalmente, se usa con un pronombre átono antes del verbo (me, te, le, nos, les) y no con un pronombre personal o un nombre propio, como en inglés, por ende, la estructura de la oración no coincide directamente entre el inglés y el español.
         p.text-center #[b #[i For example:]]
         .row.justify-content-center.mb-4
-          .col-lg-6.bg-color69
+          .col-lg-7.bg-color69
             .p-4
               .row.align-items-center
                 .col-auto
                   figure
                     img(src='@/assets/curso/tema3/img3.svg', style="width: 80px").m-auto
                 .col
-                  p.mb-0 #[b.txt-color1 Me] gusta leer libros de historia.
-                  p.mb-0 #[b.txt-color1 #[u I like] to read history books.]
+                  p.mb-2.text-center #[b.txt-color1 Me] gusta leer libros de historia.
+                  TarjetaAudio.color-primario(
+                    texto="<em>I like to read history books</em>."
+                    :audio="require('@/assets/curso/tema3/audio34.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
         p.mb-0 En este caso, lo importante es tener en cuenta que el verbo #[i “to like”] funciona como cualquier otro verbo en inglés y responde a la estructura de #[b “Sujeto + Verbo + Complemento”].
     p.text-center.mb-5 A continuación, va a ver la forma de conjugar el verbo #[i “to like”] (gustar) en el tiempo presente simple. Lea, escuche y repita:
     .row.mb-5
@@ -42,7 +46,7 @@
         .row
           .col-12.bg-color70
             .p-3
-              p.text-center.text-white.mb-0 #[b Singular]
+              h3.text-center.text-white.mb-0 Singular
         .row
           .col-12.col-lg.bg-color71
             .p-3
@@ -127,7 +131,7 @@
         .row
           .col-12.bg-color72
             .p-3
-              p.text-center.text-white.mb-0 #[b Singular]
+              h3.text-center.text-white.mb-0 Plural
         .row
           .col-12.col-lg.bg-color73
             .p-3
@@ -227,7 +231,7 @@
     p.mb-5 Existen otras expresiones que un hablante nativo halla más naturales para expresar lo que le gusta o no le gusta y que son importantes recordar. Lea, escuche y repita:
     .row.mb-5
       .col-lg-7.p-4.ps-lg-5.pe-lg-0.py-lg-5.bg-color74
-        h3.text-center.text-white.mb-5 #[i Expressing likes]
+        h2.text-center.mb-5 #[i Expressing likes]
         .row
           .col-2.d-none.d-lg-block  
             .fig-deco4
@@ -305,7 +309,7 @@
                         )
                         p.ms-3 Soy un gran fan de ir al gimnasio.
       .col-lg-5.p-4.ps-lg-0.pe-lg-5.py-lg-5.bg-color75.bg-color76
-        h3.text-center.mb-5 #[i.txt-color3 Expressing dislikes]
+        h2.text-center.mb-5 #[i.txt-color3 Expressing dislikes]
         .row
           .col-12.bg-text.fig-deco5
             .p-2.p-lg-5
