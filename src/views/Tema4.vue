@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 4
       h1 #[i Linking words]
-    .row.align-items-center.bg-color78
+    .row.align-items-center.bg-color78(data-aos="fade-down")
       .col-lg-2
         figure.my-4.my-lg-0
           img(src='@/assets/curso/tema4/img1.svg', style="width: 150px").m-auto
@@ -23,7 +23,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/6-2xjue054c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 En la siguiente tabla, se muestran algunos conectores comunes y su correspondiente conjunción. Si a menudo tiene #[b problemas con las oraciones corridas, intente reemplazar la conjunción con el conector correcto].
     .row
-      .col-12.col-lg-6
+      .col-12.col-lg-6(data-aos="fade-right")
         .p-4.bg-color80
           .h3.text-end.me-5 #[i Conjunción]
           .row.align-items-center
@@ -59,7 +59,7 @@
                     .col-12
                       p.text-center.mb-0 #[b.txt-color1 #[i while]] (mientras)
                       p.text-center.mb-0 #[b.txt-color1 #[i same time]] (al mismo tiempo)
-      .col-12.col-lg-6
+      .col-12.col-lg-6(data-aos="fade-left")
         .p-4.bg-color79
           .h3.ms-5 #[i.txt-color3 Conector correspondiente]
           .row.align-items-center
@@ -115,7 +115,7 @@
       h2 4.2 #[i How to use “and”, “or”, “but”?]
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema4/img4.svg', style="width: 450px").m-auto
       .col-lg-7
         p Estas tres palabras, #[b.txt-color1 "and"], #[b.txt-color1 "or"] y #[b.txt-color1 "but"], son conjunciones coordinantes y se usan para conectar dos partes de oraciones que son similares y que tienen el mismo valor, gramaticalmente hablando.
@@ -247,7 +247,7 @@
                     )
                     p.mb-0.ms-3 Él no es francés #[b.txt-color1 sino] suizo.
       .col-lg-3
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema4/img5.svg', style="width: 450px").m-auto
 
 </template>

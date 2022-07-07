@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 3
       h1 #[i What do I like and what do I not like?]
-    .row.bg-color68.align-items-center
+    .row.bg-color68.align-items-center(data-aos="fade-down")
       .col-lg-auto.order-2.order-lg-1
         figure.mb-3.mb-lg-0
           img(src='@/assets/curso/tema3/img1.svg', style="width: 150px").m-auto
@@ -20,7 +20,7 @@
       h2 3.1 #[i How to conjugate the verb “like” in the simple present tense]
     .row.align-items-end.mb-5
       .col-lg-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img1.png', style="width: 380px").m-auto
       .col-lg-8
         p A veces, las personas hispano hablantes que están aprendiendo el idioma inglés tienen problemas con el verbo #[b “to like”] (gustar), debido a que en español, generalmente, se usa con un pronombre átono antes del verbo (me, te, le, nos, les) y no con un pronombre personal o un nombre propio, como en inglés, por ende, la estructura de la oración no coincide directamente entre el inglés y el español.
@@ -41,7 +41,7 @@
                   )
         p.mb-0 En este caso, lo importante es tener en cuenta que el verbo #[i “to like”] funciona como cualquier otro verbo en inglés y responde a la estructura de #[b “Sujeto + Verbo + Complemento”].
     p.text-center.mb-5 A continuación, va a ver la forma de conjugar el verbo #[i “to like”] (gustar) en el tiempo presente simple. Lea, escuche y repita:
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-12
         .row
           .col-12.bg-color70
@@ -126,7 +126,7 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.ms-3 ¿Le gusta la pizza?
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-12
         .row
           .col-12.bg-color72
@@ -211,7 +211,7 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.ms-3 ¿Les gusta la pizza?
-    .row
+    .row(data-aos="fade-up")
       .col-lg-4.p-5.bg-color8
         figure.mb-4
           img(src='@/assets/curso/tema3/img6.svg', style="width: 70px").m-auto
@@ -229,7 +229,7 @@
     .titulo-segundo.color-acento-contenido
       h2 3.2 #[i Other expressions to express like and dislike]
     p.mb-5 Existen otras expresiones que un hablante nativo halla más naturales para expresar lo que le gusta o no le gusta y que son importantes recordar. Lea, escuche y repita:
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-7.p-4.ps-lg-5.pe-lg-0.py-lg-5.bg-color74
         h2.text-center.mb-5 #[i Expressing likes]
         .row
@@ -382,7 +382,7 @@
                         p.ms-3 No soy un gran fan de ir al gimnasio.
     p.mb-5 También se pueden agregar adverbios como #[b “really”], #[b “quite”] o #[b “just”], para hacer más énfasis en lo que nos gusta o en lo que no nos gusta.
     p.text-center.mb-5 #[b #[i For example:]]
-    .row.pt-3
+    .row.pt-3(data-aos="fade-left")
       .col-12.col-lg.mb-5.mb-lg-0
         .p-4.bg-color77
           .fig-deco2

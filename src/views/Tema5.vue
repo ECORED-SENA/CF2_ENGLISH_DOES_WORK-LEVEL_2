@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 5
       h1 #[i Pronunciation of the linking sounds]
-    .row.bg-color82.mb-5
+    .row.bg-color82.mb-5(data-aos="fade-right")
       .col-lg-5.mb-4.mb-lg-0
         .fig-deco8
           figure
@@ -15,7 +15,7 @@
       .col-lg-7
         p.mb-4 Los linking sounds son la vinculación que ocurre cuando el final de una palabra se mezcla con el inicio de la siguiente, por ende, los sonidos se unen y ambas palabras suenan como si fueran una sola, a veces afectándose entre ellas (puede que algunos sonidos de las palabras suenen diferentes cuando se pronuncian juntas o por separado).
         p.text-white.mb-0 Esto puede hacer que sea confuso entenderles a los hablantes nativos, porque suena como si hablaran muy rápido o como si pronunciaran palabras desconocidas o inexistentes, todo debido a que ellos no pronuncian palabra por palabra, ni separándolas #[b.txt-color3 “debidamente”].
-    TabsC.color-primario.mb-5
+    TabsC.color-primario.mb-5(data-aos="fade-left")
       .py-3.py-md-4(titulo="<em>Consonant and<br>vowel catenation</em>")
         .row
           .col-12.p-4
@@ -132,7 +132,7 @@
     .row.bg-color86
       .col-12
         .row
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
             .row.justify-content-end
               .col-lg-10.bg-color85.mb-3
                 .row.align-items-center.p-4
@@ -157,7 +157,7 @@
                       .anexo__texto
                         p #[b Enlace web]. #[i Mini English Lessons: Connected Speech (part 2)]
           .col-lg-5
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema5/img16.svg', style="width: 380px").m-auto
 
 </template>

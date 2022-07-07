@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 1
       h1 #[i Adjectives: describe and show objects and people]
-    .row.align-items-center.p-3.bg-color1
+    .row.align-items-center.p-3.bg-color1(data-aos="fade-right")
       .col-lg-auto.order-2.order-lg-1
         figure
           img(src='@/assets/curso/tema1/img1.svg', style="width: 120px").m-auto
@@ -19,18 +19,18 @@
       h2 1.1 #[i Qualifying adjectives]
     .row.mb-5
       .col-lg-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img1.png', style="width: 450px").m-auto
       .col-lg-8
         p Existen diferentes tipos de adjetivos, como son: calificativos, demostrativos, posesivos, etc. Los que verá a continuación son los #[b adjetivos calificativos] que son los que indican características físicas y/o de personalidad de personas, animales y cosas.
         p.mb-4 En esta categoría, se tienen tres tipos:
         .row.justify-content-center
-          .col-lg-8
+          .col-lg-8(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 1]. Tipos de adjetivos
             figure
               img(src='@/assets/curso/tema1/img2.svg', style="width: 500px")
-    .row.bg-color2.mb-5
+    .row.bg-color2.mb-5(data-aos="fade-up")
       .col-12.p-5
         p.mb-5 Los comparativos y superlativos se verán en un nivel superior de aprendizaje de inglés, pero es importante que pueda reconocerlos. Inicialmente, #[b se aborda el uso de los adjetivos absolutos]:
         p.text-center.mb-5 #[b #[i.txt-color2 Listen and repeat:]]
@@ -53,7 +53,7 @@
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ms-3 Firulais es un perro travieso.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
@@ -62,7 +62,7 @@
           .col-lg-8
             p.mb-0 En español, los adjetivos calificativos varían en género y número. En inglés, los adjetivos calificativos tienen una sola forma, que es invariable (no varían ni en número ni en género).
     p.text-center.mb-5 #[b #[i.txt-color1 Listen and repeat:]]
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-10.col-lg.p-4
         .row
           .col-12.px-0
@@ -117,9 +117,9 @@
             p.mb-0.ms-3 Los niños están enfermos.
     h4.mb-4 #[i Where adjectives go in a sentence.]
     p.mb-5 En inglés y español, usamos adjetivos para describir sustantivos. La mayoría de los adjetivos se pueden usar delante de un sustantivo, sin embargo, se deben tener en cuenta dos recomendaciones:
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-down")
       p.mb-0 #[b Tabla 1]. Adjetivos para describir sustantivos
-    .row.mb-4
+    .row.mb-4(data-aos="fade-up")
       .col-lg-4.bg-color5.p-3
         figure
           img(src='@/assets/curso/tema1/img6.png', style="width: 300px").m-auto
@@ -141,7 +141,7 @@
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ms-3 Nosotros preparamos una comida deliciosa anoche.
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down")
       .col-lg-4.bg-color7.p-3
         figure
           img(src='@/assets/curso/tema1/img7.png', style="width: 300px").m-auto
@@ -185,7 +185,7 @@
                   img(src='@/assets/curso/tema1/img7.svg', style="width: 20px").m-auto
               .col
                 p.mb-0.txt-color1 No: … black beautiful dress.
-        .tarjeta.color-secundario.p-3
+        .tarjeta.color-secundario.p-3(data-aos="fade-left")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
               img(src="@/assets/curso/tema1/img8.svg")
@@ -199,10 +199,10 @@
                     span(style="color: black !important") Descargar
                     i.fas.fa-file-download(style="color: black !important")
       .col-lg-5
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img8.png', style="width: 500px").m-auto
     p.mb-5 De acuerdo con la tabla de secuencia, revise algunos ejemplos:
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-3.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img9.png', style="width: 500px").m-auto
@@ -291,7 +291,7 @@
               .col-lg-4
                 figure
                     img(src='@/assets/curso/tema1/img13.svg', style="width: 180px").m-auto
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-lg-4.bg-color7
         figure.mt-2
           img(src='@/assets/curso/tema1/img10.png', style="width: 250px").m-auto
@@ -322,11 +322,11 @@
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
       .col-lg-4.px-0
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img11.png', style="width: 550px").m-auto
     p.text-center.mb-5 Aun así, hay casos en los que en inglés sí se usa la conjunción #[b #[i “and”]] (y) para unir adjetivos calificativos:
     .row.justify-content-center.mb-5
-      .col-10.col-lg.m-2.p-4.bg-color9
+      .col-10.col-lg.m-2.p-4.bg-color9(data-aos="fade-left")
         figure.my-3
           img(src='@/assets/curso/tema1/img17.svg', style="width: 140px").m-auto
         p.text-white Cuando aparece más de un adjetivo después de un verbo como el verbo #[b #[i "to be"]] (un verbo de enlace). En este caso, el penúltimo adjetivo normalmente se conecta al último adjetivo por #[b #[i "and"]]:
@@ -337,7 +337,7 @@
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
         p.text-white.mb-4.ms-3 La escuela era un lugar cálido y divertido. Ahora es #[b.txt-color3 deprimente, lúgubre y frío].
-      .col-10.col-lg.m-2.p-4.bg-color10
+      .col-10.col-lg.m-2.p-4.bg-color10(data-aos="fade-right")
         figure.my-3
           img(src='@/assets/curso/tema1/img18.svg', style="width: 140px").m-auto
         p #[i “And”] es menos común cuando más de un adjetivo viene antes del sustantivo (por ejemplo, #[i “a warm, welcoming place”], que significa “un lugar cálido y acogedor”). Sin embargo, es posible usar #[i “and”] cuando hay dos o más adjetivos del mismo tipo, o cuando los adjetivos se refieren a diferentes partes de la misma cosa:
@@ -481,7 +481,7 @@
     p.mb-5 En español, los adjetivos calificativos varían en género y número; en inglés, los adjetivos calificativos tienen una sola forma, que es invariable (no varían ni en número ni en género). En la lista de términos, se va a interpretar cada uno en español en su #[b forma masculina-singular], pero se debe tener en cuenta que en español hay más formas.
     p.mb-4 #[b #[i For example:]]
     p.mb-5 #[b.txt-color1 Tall] → alto / alta / altos /altas
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-10.col-lg.bg-color14.p-4
         .row.mb-3
           .col-12
@@ -543,7 +543,7 @@
         )
         p.mb-0.ms-3 Los niños son #[b.txt-color1 altos].
     p.mb-5 Ahora, revise cada uno de los términos para describir la apariencia física y la personalidad:
-    .row.bg-color15.mb-5
+    .row.bg-color15.mb-5(data-aos="fade-right")
       .col-12.px-5.py-3
         SlyderE(indicadores="derecha")
           .row.align-items-center.px-2

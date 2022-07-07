@@ -3,18 +3,18 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 2
       h1 #[i What is an adverb?]
     .row
       .col-lg-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img1.png', style="width: 450px").m-auto
       .col-lg-8
         p Los adverbios son una de las cuatro clases principales de palabras gramaticales, junto con los sustantivos, los verbos y los adjetivos. Son palabras que usamos dentro de una oración para modificar verbos, adjetivos y otros adverbios. Su labor es ofrecer más información acerca del elemento que acompañan y modifican.
         .row.justify-content-center
-          .col-lg-10
+          .col-lg-10(data-aos="fade-left")
             p #[b #[i.txt-color1 For example:]]
             .row
               .col-11.bg-color63
@@ -33,16 +33,16 @@
     p.mb-5 Los adverbios de intensidad (#[i adverbs of intensity]), también llamados adverbios de grado (#[i adverbs of degree]) o intensificadores (#[i intensifiers]) nos hablan de la intensidad de algo. Los adverbios de intensidad suelen colocarse antes de la palabra gramatical (sea un adjetivo, un adverbio o un verbo) que modifican, aunque hay ciertas excepciones.
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img2.png', style="width: 550px").m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p Las palabras #[b #[i “too”]], #[b #[i “enough”]], #[b #[i “very”]], y #[b #[i “extremely”]] son ejemplos de adverbios de grado.
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 2]. Intensidad de adverbios
         figure
           img(src='@/assets/curso/tema2/img2.svg', style="width: 480px")
     p.mb-5 A continuación, verifique el adverbio con un ejemplo. Escuche y repita:
-    .tarjeta.tarjeta--azul.p-4
+    .tarjeta.tarjeta--azul.p-4(data-aos="fade-down")
       SlyderA(tipo="b")
         .row.px-2.justify-content-center
           .col-12
@@ -242,7 +242,7 @@
       h2 2.2 #[i Use and differences between “really” and “very”]
     p.mb-5 Tanto #[i “really”] como #[i “very”] son adverbios de intensidad y ambos se usan para enfatizar, para intensificar lo que se está diciendo. Revise cada caso:
     .row.pt-3.mb-5
-      .col-12.col-lg.mb-5.mb-lg-0
+      .col-12.col-lg.mb-5.mb-lg-0(data-aos="fade-right")
         .p-4.bg-color64
           .fig-deco2
             .row.justify-content-center
@@ -288,7 +288,7 @@
                 img(src='@/assets/curso/tema2/img13.svg', style="width: 20px").m-auto
             .col
               p.mb-0 #[b Modifica un verbo]
-      .col-12.col-lg
+      .col-12.col-lg(data-aos="fade-left")
         .p-4.bg-color64
           .fig-deco2
             .row.justify-content-center
@@ -334,7 +334,7 @@
                 img(src='@/assets/curso/tema2/img14.svg', style="width: 20px").m-auto
             .col
               p.mb-0 #[b NO modifica un verbo]
-    .row
+    .row(data-aos="fade-right")
       .col-lg-4.p-5.bg-color8
         figure.mb-4
           img(src='@/assets/curso/tema2/img15.svg', style="width: 70px").m-auto
