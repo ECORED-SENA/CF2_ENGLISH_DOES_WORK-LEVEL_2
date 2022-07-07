@@ -122,7 +122,7 @@
         p.mb-0 Por lo general, no se usan conjunciones para comenzar oraciones cuando se escribe, pero puede ocurrir cuando se habla coloquialmente o cuando se escribe informalmente en la Internet y en las redes sociales, observe:
     .row
       .col-lg-9
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="<em>And</em> / y").justify-content-center
             .col-10.bg-color11.shadow-sm
               .p-4
@@ -249,6 +249,26 @@
       .col-lg-3
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema4/img5.svg', style="width: 450px").m-auto
+    Separador
+    .titulo-segundo.color-acento-contenido
+      h2 Actividad didáctica
+    .row.justify-content-center.align-items-center.align-items-lg-stretch(data-aos="fade-right")
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/completar-espacios.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 Conectando ideas / #[i Connecting ideas]
+        p.mb-4 #[b Objetivo]. Identificar las #[i linking words] o palabras de enlace dentro de una oración.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Completar los espacios.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad4/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 
 </template>
 
