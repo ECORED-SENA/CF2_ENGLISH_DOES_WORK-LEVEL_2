@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      '<span1><em>These are the things that are around me</em></span1><span>Estas son las cosas que están a mi alrededor</span>',
+      '<span1><em>These are the things that are around me</em></span1><br><span>Estas son las cosas que están a mi alrededor</span>',
     descripcionCurso:
       'Este componente brinda herramientas para nombrar cualidades de personas con adjetivos calificativos, intercambiar información acerca de lugares y objetos ubicándolos en un tiempo o espacio determinado con adjetivos demostrativos; para brindar aún más información con respecto a lo que se habla usando adverbios, y enseguida hablar de gustos y disgustos con las expresiones correctas para pronunciar adecuadamente los <em>linking sounds</em> en el inglés americano.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
