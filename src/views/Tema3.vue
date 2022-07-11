@@ -246,7 +246,7 @@
                       .col-lg-10
                         p.text-center.mb-4 #[b #[i I like…]]
                         TarjetaAudio.color-primario.mb-3(
-                          texto="<em>I like horror movies</em>?"
+                          texto="<em>I like horror movies</em>."
                           :audio="require('@/assets/curso/tema3/audio19.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -320,7 +320,7 @@
                       .col-lg-10
                         p.text-center.mb-4 #[b #[i I don’t like…]]
                         TarjetaAudio.color-primario.mb-3(
-                          texto="<em>I don’t like horror movies</em>?"
+                          texto="<em>I don’t like horror movies</em>."
                           :audio="require('@/assets/curso/tema3/audio25.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )

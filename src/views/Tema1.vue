@@ -347,7 +347,7 @@
           :audio="require('@/assets/curso/tema1/audio18.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
-        p.mb-4.ms-3 Es un #[b.txt-color2 bolso] de #[b.txt-color2 cuero, blanco y negros].
+        p.mb-4.ms-3 Es un #[b.txt-color2 bolso] de #[b.txt-color2 cuero, blanco y negro].
     h4.mb-4 #[i Adjectives with ‘-ing’ and ‘-ed’.]
     p.mb-5 Muchos adjetivos se forman a partir de verbos más las terminaciones -ing o –ed. Revise las características para cada uno de ellos:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -456,7 +456,7 @@
                       .col-12.p-4.bg-color13
                         p.mb-4 #[i Interested] (interesado)
                         TarjetaAudio.color-primario.mb-3(
-                          texto="I am interested in this book."
+                          texto="I am <span>interested</span> in this book."
                           :audio="require('@/assets/curso/tema1/audio26.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -464,7 +464,7 @@
                       .col-12.p-4.bg-color13
                         p.mb-4 #[i Terrified] (aterrorizado)
                         TarjetaAudio.color-primario.mb-3(
-                          texto="I am terrified because of this movie."
+                          texto="I am <span>terrified</span> because of this movie."
                           :audio="require('@/assets/curso/tema1/audio28.mp3')"
                           @audio-hover="mostrarIndicadorTarjetaAudio = false"
                         )
@@ -624,7 +624,7 @@
                   p.mb-0 #[b Características corporales]
                   p.mb-4 #[b (#[i body features]):]
                   p.mb-0 #[i According to weight]
-                  p.mb-0 Según la peso
+                  p.mb-0 Según el peso
             .col-lg-6
               .row.justify-content-end
                 .col-11.col-lg-5.bg-color23
@@ -744,12 +744,6 @@
             Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio56.mp3')")
             p.text-center.mb-0 #[b #[i.txt-color1 Humble]]
             p.text-center Humilde
-      .col-11.col-lg.bg-color39
-        .row.justify-content-center
-          .col-lg-10.bg-color11.p-2
-            Audio.color-secundario.mx-auto.mb-4(:audio="require('@/assets/curso/tema1/audio57.mp3')")
-            p.text-center.mb-0 #[b #[i.txt-color1 Responsible]]
-            p.text-center Responsable
       .col-11.col-lg.bg-color40
         .row.justify-content-center
           .col-lg-10.bg-color11.p-2

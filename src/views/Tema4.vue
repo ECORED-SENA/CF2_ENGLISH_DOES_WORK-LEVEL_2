@@ -20,7 +20,7 @@
     p.mb-5 Es ideal diferenciar las conjunciones de los conectores, dado que, por un lado, se unen gramaticalmente dos cláusulas, y del otro, se utiliza para dos oraciones separadas. Observe la explicación:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/6-2xjue054c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7EZ8bUmkXoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 En la siguiente tabla, se muestran algunos conectores comunes y su correspondiente conjunción. Si a menudo tiene #[b problemas con las oraciones corridas, intente reemplazar la conjunción con el conector correcto].
     .row
       .col-12.col-lg-6(data-aos="fade-right")
